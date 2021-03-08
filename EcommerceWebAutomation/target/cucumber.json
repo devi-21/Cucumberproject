@@ -1,0 +1,474 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8062603300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Verify valid user login",
+        "description": "",
+        "id": "login-functionality;verify-valid-user-login",
+        "after": [
+          {
+            "result": {
+              "duration": 651024500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156070400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "HomePageSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2187670100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "HomePageSteps.verifyUserIsonLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55211500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify user on login page",
+            "match": {
+              "location": "LoginPageSteps.verify_user_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2621697800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User logs in with \"abcdtest@test.com\" and \"Abcdabcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcdtest@test.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Abcdabcd",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginPageSteps.user_logs_in_with_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25183100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify successful login",
+            "match": {
+              "location": "HomePageSteps.verifySuccessfulUserlogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7417289700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Verify Invalid user login",
+        "description": "",
+        "id": "login-functionality;verify-invalid-user-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 640209600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5170500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "HomePageSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2069275500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "HomePageSteps.verifyUserIsonLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57142900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify user on login page",
+            "match": {
+              "location": "LoginPageSteps.verify_user_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1507592800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User logs in with \"abcdtest@test.com\" and \"Test0001\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abcdtest@test.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Test0001",
+                  "offset": 43
+                }
+              ],
+              "location": "LoginPageSteps.user_logs_in_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36213400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify error message for invalid credentials",
+            "match": {
+              "location": "LoginPageSteps.verifyErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          },
+          {
+            "line": 12,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6954961100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verify Invalid user login",
+        "description": "",
+        "id": "login-functionality;verify-invalid-user-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 906408300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4449800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "HomePageSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3599231500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "HomePageSteps.verifyUserIsonLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52252500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify user on login page",
+            "match": {
+              "location": "LoginPageSteps.verify_user_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1531340100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User logs in with \"abc@xyz.com\" and \"Abcdabcd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@xyz.com",
+                  "offset": 19
+                },
+                {
+                  "val": "Abcdabcd",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginPageSteps.user_logs_in_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66881700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify error message for invalid credentials",
+            "match": {
+              "location": "LoginPageSteps.verifyErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          },
+          {
+            "line": 12,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7566701400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Verify Invalid user login",
+        "description": "",
+        "id": "login-functionality;verify-invalid-user-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 780456700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3786500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "HomePageSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2263352700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "HomePageSteps.verifyUserIsonLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50335300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Verify user on login page",
+            "match": {
+              "location": "LoginPageSteps.verify_user_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1348417500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User logs in with \"abc@xab.com\" and \"test111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@xab.com",
+                  "offset": 19
+                },
+                {
+                  "val": "test111",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginPageSteps.user_logs_in_with_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68179200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify error message for invalid credentials",
+            "match": {
+              "location": "LoginPageSteps.verifyErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@login"
+          },
+          {
+            "line": 12,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]
