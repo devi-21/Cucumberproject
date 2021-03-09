@@ -13,10 +13,4 @@ Pre-requisite:
 •Cucumber - BDD framework
 •POM design concepts ---------------------------------------------------------
 
-Steps to clone execute the tests
-
-
-
-cd EcommerceWebAutomation
-
-mvn clean test
+Sailaja
