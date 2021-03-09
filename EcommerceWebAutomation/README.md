@@ -12,9 +12,6 @@ Currently its in progress and aims to run on cross browsing platforms.
 * POM design concepts
 ---------------------------------------------------------
 
-Steps to clone execute the tests
-
-git clone https://github.com/asifapasha/EcommerceWebAutomation
 
 cd EcommerceWebAutomation
 
